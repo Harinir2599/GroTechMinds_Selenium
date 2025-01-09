@@ -3,9 +3,13 @@ package basicprogram;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Test;
 
 public class Amazon_login_87 {
-	public static void main(String[] args) {
+	@Test
+	public void testcase() {
+		
+		
 		EdgeDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
