@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	driver.findElement(By.xpath("//input[@type='email']")).sendKeys("9444863553");
 	driver.findElement(By.xpath("//input[@id='continue']")).click();
 	driver.findElement(By.xpath("//input[@id='continue']")).click();
-	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("1234567");
+	driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Tejas@2024");
 	driver.findElement(By.xpath("//input[@type='text']")).clear();
 	driver.findElement(By.xpath("//input[@aria-label='Verify OTP Button']")).click();
 	

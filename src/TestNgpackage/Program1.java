@@ -8,7 +8,7 @@ public class Program1 {
 		
 	}
 	@Test
-	public void harini() {
+	public void logout() {
 		
 	}
 	@Test

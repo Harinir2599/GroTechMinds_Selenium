@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Testing edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="TestNgpackage.Datadriven_parallel">
+        <methods>
+          <include name="testcase3"/>
+          <include name="testcase"/>
+          <include name="testcase1" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- TestNgpackage.Datadriven_parallel -->
+    </classes>
+  </test> <!-- Testing edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
